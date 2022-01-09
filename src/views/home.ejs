@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+    <script src="https://kit.fontawesome.com/859e7ab76e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+    <link rel='stylesheet' href='css/home.css'>
+
+</head>
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+
+       
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+      
+      
+
+        </div>
+        <!-- Collapsible content -->
+      
+    </nav>
+    <!--Navbar end-->
+
+
+    <!-- modal start -->
+    <div class='modal-dialog text-center mx-auto'>
+        <div class='col-sm-7 main-section'>
+          <div class="modal-content">
+
+           <br>
+
+            <form class='col-12' action="" onsubmit="return validate()" method="GET">
+
+              <div class="form-group">
+                <input id="uid" name="uid" class='form-control' type="email" placeholder="Enter email id" id="mail" required>
+                <label for="email" id="feedback" style="color:red; visibility:hidden">Enter valid e-mail id</label>
+
+              </div>
+
+              <button id="login" name="login" type="submit" class="btn btn-success text-center"><i class="fas fa-sign-in-alt"></i>Send Mail</button>
+            
+              <br>
+              <br>
+            </form>
+            
+          </div>
+          <!-- modal content end-->
+          
+        </div>
+
+
+    </div>
+    <!-- modal end -->
+
+    <br>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+              
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="../../public/js/home.js"></script>
+
+
+</body>
+</html>
